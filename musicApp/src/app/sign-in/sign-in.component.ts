@@ -14,7 +14,8 @@ export class SignInComponent implements OnInit {
   public loginUser = {};
   public value = '';
   signInForm: FormGroup;
-
+  email: string;
+  password: string;
   constructor(private router: Router, private restService: RestService, private formBuilder: FormBuilder) { }
 
   ngOnInit() {
