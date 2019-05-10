@@ -6,6 +6,7 @@
     "start": "node server",
     "build": "ng build --watch",
     "backend": "nodemon server",
+    "postinstall": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
